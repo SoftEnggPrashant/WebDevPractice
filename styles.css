@@ -1,0 +1,38 @@
+.box{
+    padding :10px;
+    width: 270px;
+}
+.imageStyle{
+    height: 150px;
+    width: "80%";
+    border-radius: 5px;
+}
+.dis{
+    display: inline;
+    color: blue;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.fin{
+    display: inline;
+    margin-right: 5px;
+    color:gray;
+    font-weight: bold;
+}
+.off{
+    display: inline;
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.des{
+    font-weight: bold;
+    font-size: large;
+    width: 80%;
+}
