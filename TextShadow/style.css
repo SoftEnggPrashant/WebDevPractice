@@ -1,0 +1,20 @@
+.container{
+    text-shadow: 3px 3px 2px green;
+}
+
+.boxShow{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 3px 3px blue;
+    box-shadow: -3px -3px blue;
+    box-shadow: -3px -3px blue, 3px 3px 2px blue;
+}
+
+.borderShadow{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black,-2px -2px 4px black;
+}

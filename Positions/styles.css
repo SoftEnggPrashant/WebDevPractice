@@ -1,0 +1,26 @@
+.container{
+    position: absolute;
+    bottom: 0px;
+    /* margin-left:97vw; */
+    margin-top: 96vh;
+}
+
+.imgContainer{
+    position:absolute;
+    height: 250px;
+    width: 300px;
+    border:1px solid black;
+}
+
+.imgCustom{
+    position:absolute;
+    height:250px;
+    width:300px;
+}
+
+.text{
+    position:absolute;
+    top: 45%;
+    left: 25%;
+    color: aqua;
+}

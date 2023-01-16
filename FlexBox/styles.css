@@ -1,0 +1,13 @@
+.conatainer{
+    display: flex;
+    flex-direction: row-reverse;
+    border : 2px solid black;
+    background-color: aqua;
+    flex-wrap: wrap-reverse;
+    /* flex-flow: column wrap; */
+}
+
+.box1{
+    border:1px solid black;
+    margin: 5px;
+}
