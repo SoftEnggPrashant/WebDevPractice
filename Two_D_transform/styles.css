@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    /* margin-top: 50%; */
+    /* background-color: red; */
+    /* transform: rotate(270deg); */
+    /* transform: scaleX(5);
+    transform: scaleY(5); */
+    /* transform: scale(2,4); sort hand property of scaly and scalx */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skew(15deg,15deg); */
+    /* transform: translateX(40px); */
+    /* transform: translateY(45px); */
+    transform: translate(10px,10px);
+
+
+}
