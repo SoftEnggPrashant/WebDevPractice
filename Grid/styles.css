@@ -1,14 +1,33 @@
 .container{
     border: 2px solid green;
-    width: 400px;
-    height: 400px;
-    padding: 5px;
+    width: 100%;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 100px 300px;
-    grid-template-rows:200px 300px ;
-    gap: 5px;
+    grid-template-columns: 100px, 1fr;
+    grid-template-rows: 50px,1fr,50px;
+    /* gap: 5px; */
+    grid-template-areas: 
+    "hr hr hr"
+    "sd ct ct"
+    "ft ft ft";
 }
 
-.box{
+.box1{
+    grid-area: hr;
+    border: 2px solid black;
+}
+.box2{
+    grid-area: sd;
+    border: 2px solid black;
+}
+.box3{
+    grid-area: ct;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.box4{
+    grid-area: ft;  
     border: 2px solid black;
 }
